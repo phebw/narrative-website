@@ -11514,18 +11514,17 @@ body {
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
+    font-family: 'Lato', sans-serif;
     padding: 0.5rem 0;
     color: rgba(255, 255, 255, 0.5);
-    font-family: 'Lato', sans-serif;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
-    font-family: 'Lato', sans-serif;
   }
   #mainNav .nav-link:hover {
-    color:#1116A4;
+    color: #F79327;
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -11542,7 +11541,7 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #F79327;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
