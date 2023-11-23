@@ -11924,3 +11924,25 @@ body {
   clear: both;
   display: table;
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+/* Carousel
+------------------------- */
+
+.carousel-item {
+  height: 50vh;
+  width: 50%;
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Carousel End
+------------------------- */
