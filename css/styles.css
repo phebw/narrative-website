@@ -11964,19 +11964,6 @@ body {
 /* Carousel
 ------------------------- */
 
-.carousel-item {
-  height: 50vh;
-  width: 70;
-  min-height: 100px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-/* Carousel End
-------------------------- */
 
 
 /* Featurettes
@@ -12068,4 +12055,31 @@ body {
 }
 
 /* Featurettes End
+------------------------- */
+
+
+/* Carousel
+------------------------- */
+
+.carousel-item {
+  height: 533px;
+  min-height: 350px;
+  width: 400px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  
+  
+}
+
+.carousel-item {
+  width: 533px;
+  height: 400px;
+}
+
+
+
+/* Carousel End
 ------------------------- */
