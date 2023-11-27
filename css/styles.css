@@ -101,6 +101,28 @@ hr {
   opacity: 0.25;
 }
 
+.mainbodytext {
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+headingfeaturette {
+  font-family: 'Roboto', sans-serif;
+}
+
+.subheading {
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--bs-body-font-size);
+  font-weight: 500;}
+
 hr:not([size]) {
   height: 1px;
 }
@@ -497,8 +519,9 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  font-family: 'Roboto', sans-serif;
 }
 
 .display-1 {
@@ -7954,7 +7977,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #F79327 !important;
 }
 
 .text-black-50 {
@@ -11953,4 +11976,96 @@ body {
 }
 
 /* Carousel End
+------------------------- */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Featurettes End
+------------------------- */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider2 {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Featurettes End
+------------------------- */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider3 {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  --bs-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5), var(--bs-bg-opacity) !important;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Featurettes End
 ------------------------- */
