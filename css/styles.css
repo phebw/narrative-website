@@ -11626,7 +11626,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/activities.png"); 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/transportimage.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11639,6 +11639,32 @@ body {
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/photoa1.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/transportbg2.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/foodbg.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12058,28 +12084,21 @@ body {
 ------------------------- */
 
 
+
+
 /* Carousel
 ------------------------- */
 
 .carousel-item {
-  height: 533px;
+  height: 100vh;
   min-height: 350px;
-  width: 400px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  
-  
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-.carousel-item {
-  width: 533px;
-  height: 400px;
-}
-
-
 
 /* Carousel End
 ------------------------- */
+
