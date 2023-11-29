@@ -3062,13 +3062,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  background-color: #FDA45A;
+  border-color: #FDA45A;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7529,6 +7529,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 5rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7899,6 +7903,7 @@ textarea.form-control-lg {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  font-family: 'Playfair Display', serif;
 }
 
 .text-capitalize {
@@ -11572,18 +11577,18 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #F79327;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: white;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #F79327;
+    color: black;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
@@ -11596,10 +11601,18 @@ body {
 }
 
 .btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: 'Playfair Display', serif; 
-   font-size: 80%;
+  padding: 1.rem 2rem;
+  font-family: 'Roboto', sans-serif;
+   font-size: 90%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.icontext {
+  padding: 1.rem 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 70%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
@@ -12112,3 +12125,55 @@ body {
 
 /* Carousel End
 ------------------------- */
+
+
+
+
+
+
+/*Portfolio styling from Freelancer template*/
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(253,164,90);
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+.portfolio-modal .btn-close {
+  color: #1abc9c;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+/*End of portfolio styling from Freelancer template*/
+
+
+
+
+
