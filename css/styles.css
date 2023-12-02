@@ -6331,6 +6331,7 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
   margin-left: 15%;
   list-style: none;
+  
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
@@ -6338,7 +6339,7 @@ textarea.form-control-lg {
   width: 30px;
   height: 3px;
   padding: 0;
-  margin-right: 3px;
+  margin-right: 5px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
@@ -7994,7 +7995,7 @@ textarea.form-control-lg {
 .text-black-50head {
   font-family: 'Roboto', sans-serif;
   --bs-text-opacity: 1;
-  color: #F79327 !important;
+  color:#87CEFA !important;
 }
 
 
@@ -11577,7 +11578,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #F79327;
+    background-color: #87cefa;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11639,19 +11640,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/transportimage.jpg"); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-.masthead3 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/photoa1.jpg"); 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/transportbg2.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11684,6 +11673,18 @@ body {
   background-size: cover;
 }
 
+.masthead3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/activitiesbg.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 .masthead4 {
   position: relative;
   width: 100%;
@@ -11768,7 +11769,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/barcelona.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12110,13 +12111,26 @@ body {
 ------------------------- */
 
 
-/* Carousel
-------------------------- */
-
-/* Carousel
-------------------------- */
 
 .carousel-item {
+  width: 533px;
+  height: 400px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/* Carousel End
+------------------------- */
+
+/* Carousel
+------------------------- */
+
+.carousel-item1 {
   height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
@@ -12124,23 +12138,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
 }
-
 
 /* Carousel End
 ------------------------- */
-
-.carousel-item {
-  width: 533px;
-  height: 400px;
-}
-
-
-
-/* Carousel End
-------------------------- */
-
 
 
 
@@ -12162,7 +12163,7 @@ body {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(253,164,90);
+  background-color: rgba(135,206,250);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
