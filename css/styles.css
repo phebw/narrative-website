@@ -118,6 +118,15 @@ headingfeaturette {
   font-family: 'Roboto', sans-serif;
 }
 
+bodyfeaturette2
+ {
+  font-family: 'Roboto', sans-serif;
+    --bs-text-opacity: 0;
+    color: rgba(255, 255, 255) !important;
+  }
+
+
+
 .subheading {
   font-family: 'Roboto', sans-serif;
   font-size: var(--bs-body-font-size);
@@ -8004,6 +8013,23 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+
+.text-white-60
+{
+  --bs-text-opacity: 1;
+  font-family: 'Playfair Display', serif;
+  color: rgba(255, 255, 255) !important;
+}
+
+
+.text-white-70
+{
+  --bs-text-opacity: 1;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 255, 255) !important;
+}
+
+
 .text-orange-50 {
   --bs-text-opacity: 1;
   color: (247,147,39)
@@ -8066,12 +8092,21 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-light1 {
+  --bs-bg-opacity: 1;
+  background-image: linear-gradient(white) !important;
+}
+
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
+  --bs-bg-opacity: 1;
+  background-image: linear-gradient(white,black,white);
+}
+.bg-black1 {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
