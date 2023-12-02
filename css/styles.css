@@ -8102,11 +8102,16 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-black {
-  --bs-bg-opacity: 1;
-  background-image: linear-gradient(white,black,white);
-}
 .bg-black1 {
+  --bs-bg-opacity: 1;
+  background-image: linear-gradient(white);
+}
+
+.bg-black3 {
+  --bs-bg-opacity: 1;
+  background-image: linear-gradient(white);
+}
+.bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
