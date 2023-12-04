@@ -3079,8 +3079,9 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #FDA45A;
-  border-color: #FDA45A;
+  background-color:#5050ff;
+  
+  border-color: #5050ff;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11621,7 +11622,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #87cefa;
+    background-color: #d9d9ff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
