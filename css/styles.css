@@ -101,6 +101,9 @@ hr {
   opacity: 0.25;
 }
 
+
+
+
 .mainbodytext {
   font-family: 'Roboto', sans-serif;
   font-size: var(--bs-body-font-size);
@@ -7992,7 +7995,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color:#87CEFA !important;
+  color:#00008B!important;
 }
 
 .text-black-50 {
@@ -8004,7 +8007,7 @@ textarea.form-control-lg {
 .text-black-50head {
   font-family: 'Roboto', sans-serif;
   --bs-text-opacity: 1;
-  color:#87CEFA !important;
+  color:#00008B !important;
 }
 
 
