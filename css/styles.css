@@ -96,11 +96,11 @@ body {
 hr {
   margin: 1rem 0;
   color: inherit;
+  color: #5C9DFF; 
+  border: solid 2px;
   background-color: currentColor;
-  border: 0;
   opacity: 0.25;
 }
-
 
 
 
@@ -164,7 +164,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    color: #00008B;
+    color: #424242;
     font-size: 2rem;
   }
 }
@@ -284,7 +284,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #5C9DFF;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -645,6 +645,11 @@ progress {
 }
 
 .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.img-fluid1 {
+  border-radius: 1%;
   max-width: 100%;
   height: auto;
 }
@@ -3045,7 +3050,7 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: black;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3085,9 +3090,9 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color:#5050ff;
+  background-color:#5C9DFF;
   
-  border-color: #5050ff;
+  border-color: #5C9DFF;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7987,7 +7992,7 @@ textarea.form-control-lg {
 
 .text-black {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+  color:#424242, var(--bs-text-opacity) !important;
 }
 
 .text-white {
@@ -8002,19 +8007,19 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color:#0404B9 !important;
+  color:#5C9DFF !important;
 }
 
 .text-black-50 {
   font-family: 'Roboto', sans-serif;
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: #424242 !important;
 }
 
 .text-black-50head {
   font-family: 'Roboto', sans-serif;
   --bs-text-opacity: 1;
-  color:#00008B !important;
+  color:#5C9DFF !important;
 }
 
 
@@ -11653,19 +11658,27 @@ body {
 
 .btn {
   padding: 1.rem 2rem;
-  font-family: 'Roboto', sans-serif;
-   font-size: 90%;
+  font-family: 'Roboto', sans-serif;   
+  font-size: 91%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+.homepage button {
+  padding: 1.rem 2rem;
+  font-family: 'Roboto', sans-serif;   
+  font-size: 91%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+
 }
 
 .icontext {
   padding: 1.rem 2rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 70%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
+  font-size: 75%;
+
   border: 0;
 }
 
@@ -12067,6 +12080,8 @@ body {
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  color: #5C9DFF; 
+  border: solid 2px;
 }
 
 /* Thin out the marketing headings */
@@ -12250,7 +12265,7 @@ body {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(0, 0, 139);
+  background-color: #5C9DFF;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
