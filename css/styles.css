@@ -164,7 +164,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    color: #424242;
+    color: #5C9DFF;
     font-size: 2rem;
   }
 }
@@ -11644,7 +11644,7 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: white;
+    color: black;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
