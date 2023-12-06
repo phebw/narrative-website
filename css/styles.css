@@ -280,7 +280,7 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: white;
   text-decoration: underline;
 }
 a:hover {
@@ -11639,7 +11639,7 @@ body {
     color: #000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: black;
+    color: white;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -12290,4 +12290,7 @@ body {
   }
 }
 /*End of portfolio styling from Freelancer template*/
+
+
+
 
