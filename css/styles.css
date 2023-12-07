@@ -168,6 +168,10 @@ h2, .h2 {
     font-size: 2rem;
   }
 }
+.food {
+  color: black;
+  font-size: 2rem;
+}
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
@@ -536,6 +540,7 @@ progress {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   font-family: 'Roboto', sans-serif;
+  color: #424242 !important;
 }
 
 .display-1 {
@@ -8025,7 +8030,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: white
 }
 
 
