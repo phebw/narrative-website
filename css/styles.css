@@ -11628,6 +11628,7 @@ body {
   }
   #mainNav .nav-link {
     transition: none;
+    font-family: 'Roboto', sans-serif;  
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
   }
@@ -11644,12 +11645,13 @@ body {
     color: #000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: white;
+    color: black;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
+    font-family: 'Roboto', sans-serif;  
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: black;
+    color: white;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
