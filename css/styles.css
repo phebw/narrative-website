@@ -168,6 +168,13 @@ h2, .h2 {
     font-size: 2rem;
   }
 }
+.explore{
+  color:black;
+  font-size: 32px;
+  font-size: 'Playfair Display', serif;;
+
+}
+
 .food {
   color: black;
   font-size: 2rem;
@@ -199,6 +206,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem;
 }
+
 
 p {
   margin-top: 0;
