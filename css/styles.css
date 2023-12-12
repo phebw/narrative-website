@@ -11600,8 +11600,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #5C9DFF;
+  border: 1px solid #5C9DFF;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11704,7 +11704,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/barcelona.jpg"); 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/barcelonabgimage.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
