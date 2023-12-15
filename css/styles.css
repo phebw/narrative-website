@@ -11641,7 +11641,7 @@ body {
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: #F79327;
+    color: #5C9DFF;
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -12328,4 +12328,8 @@ body {
 .button:hover {
   color: #5C9DFF;
   
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
 }
